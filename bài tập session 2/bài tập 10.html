@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai tap 10</title>
+</head>
+<body>
+    <h1>Trang web bán hàng</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Sản phẩm</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </nav>
+    
+
+    <h2>Thông tin sản phẩm</h2>
+    <table border="1">
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Mô tả</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+        </tr>
+        <tr>
+            <td>Sản phẩm 1</td>
+            <td>Mô tả sản phẩm 1</td>
+            <td>100.00đ</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Sản phẩm 2</td>
+            <td>Mô tả sản phẩm 2</td>
+            <td>200.00đ</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Sản phẩm 3</td>
+            <td>Mô tả sản phẩm 3</td>
+            <td>300.00đ</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+<h2>Thông tin người dùng</h2>
+<form action="#" method="post">
+    <label for="fullname" >Họ và tên:</label>
+    <input type="text" id="fullname" name="fullname"><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+
+    <label for="phone">Số điện thoại:</label>
+    <input type="tel" id="phone" name="phone"><br>
+
+    Địa chỉ:<textarea id="address" name="address" ></textarea><br>
+
+    <input type="submit" value="Đặt hàng">
+    <p>&copy; 2023 Trang web bán hàng</p>
+
+
+</form>
+<hr/>
+
+<h2>Tạo 1 form đưa ra thông tin sản phẩm</h2>
+<form action="#" method="post" enctype="multipart/form-data">
+    <fieldset>
+        <legend>Thông tin sản phẩm</legend>
+        <label>Tên sản phẩm:</label>
+        <input type="text" id="ten san pham" name="ten san pham">
+        <label>Số lượng:</label>
+        <input type="text">
+    </fieldset>
+
+    <fieldset>
+        <legend>Thông tin giao hàng</legend>
+        <label for="fullname">Họ và tên:</label>
+        <input type="text" id="fullname" name="fullname">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="phone">Số điện thoại</label>
+        <input type="tel" id="phone" name="phone">
+
+        Địa chỉ:<textarea id="address" name="address"></textarea>
+
+    </fieldset>
+
+
+
+    <fieldset>
+        <legend>Thông tin thanh toán</legend>
+        <label>Phương thức thanh toán:</label>
+        <select name="#" id="#">
+            <option value="Thanh toán khi nhận hàng">Thanh toán khi nhận hàng</option>
+        </select>
+    </fieldset>
+
+    <input type="submit" value="Đặt hàng">
+</form>
+
+
+
+
+</body>
+</html>
